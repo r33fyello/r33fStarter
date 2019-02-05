@@ -1,0 +1,18 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+
+footer {
+  position: fixed;
+  color: $light-grey;
+  left: 0px;
+  bottom: 0px;
+  height: 40px;
+  width: 100%;
+  background: $brand-color;
+  text-align: center;
+
+  a {
+    margin: 0 10px;
+  }
+}

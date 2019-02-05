@@ -1,0 +1,41 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+.header{
+    margin-bottom: 1.45rem;
+}
+
+.header-container{
+    max-width: 1400px; /* 1 */
+    margin-left: auto; /* 2 */
+    margin-right: auto; /* 2 */
+    padding: 1.45rem 1.0875rem;
+    width: 90%; /* 1 */
+}
+.header-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media screen and (max-width: $break-small) {
+        flex-direction: column;
+      }
+}
+.header-brand{
+    width: 8rem;
+}
+.header-menu{
+        display: inline-block;
+
+        .icon{
+        color: $brand-color;
+        margin: 0px 0;
+        cursor: pointer;
+        font-size: 30px;
+        margin: 0 25px;
+        }
+
+        a{
+            color: $brand-color;
+        }
+}
